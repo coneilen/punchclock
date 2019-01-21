@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Punchclock</id>
+        <version>2.1.0.1</version>
+        <authors>Punchclock Contributors</authors>
+        <owners>Punchclock Contributors</owners>
+        <licenseUrl>http://opensource.org/licenses/mit</licenseUrl>
+        <projectUrl>https://github.com/paulcbetts/punchclock</projectUrl>
+        <iconUrl>https://i.imgur.com/dGub9iE.gif</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Package Description</description>
+        <releaseNotes>https://github.com/paulcbetts/punchclock/releases</releaseNotes>
+        <copyright>Copyright (c) Punchclock Contributors</copyright>
+        <tags>reactive extensions async observable LINQ netstandard</tags>
+        <dependencies>
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="NETStandard.Library" version="2.0.3" exclude="Build,Analyzers" />
+                <dependency id="System.Reactive" version="4.1.2" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="lib\netstandard2.0\Punchclock.dll" target="lib\netstandard2.0\Punchclock.dll" />
+        <file src="lib\netstandard2.0\Punchclock.xml" target="lib\netstandard2.0\Punchclock.xml" />
+    </files>
+</package>
